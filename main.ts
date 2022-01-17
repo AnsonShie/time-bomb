@@ -8,25 +8,25 @@ input.onButtonPressed(Button.A, function () {
         basic.showIcon(IconNames.Heart)
         music.startMelody(music.builtInMelody(Melodies.PowerUp), MelodyOptions.Once)
     } else {
-        basic.pause(2000)
+        basic.pause(1000)
         basic.showNumber(3)
         if (count >= target) {
             basic.showIcon(IconNames.Heart)
             music.startMelody(music.builtInMelody(Melodies.PowerUp), MelodyOptions.Once)
         } else {
-            basic.pause(2000)
+            basic.pause(1000)
             basic.showNumber(2)
             if (count >= target) {
                 basic.showIcon(IconNames.Heart)
                 music.startMelody(music.builtInMelody(Melodies.PowerUp), MelodyOptions.Once)
             } else {
-                basic.pause(2000)
+                basic.pause(1000)
                 basic.showNumber(1)
                 if (count >= target) {
                     basic.showIcon(IconNames.Heart)
                     music.startMelody(music.builtInMelody(Melodies.PowerUp), MelodyOptions.Once)
                 } else {
-                    basic.pause(2000)
+                    basic.pause(1000)
                     basic.showNumber(0)
                     if (count >= target) {
                         basic.showIcon(IconNames.Heart)
